@@ -1,0 +1,108 @@
+/***** Universal styles *****/
+html, body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #efefef;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h1, h2, h3 {
+	line-height: 30px;
+}
+
+h4 {
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+a {
+  transition: all 0.2s ease-out; 
+}
+
+.btn {
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    -o-user-select: none;
+    user-select: none;
+}
+
+hr {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+
+/***** Header *****/
+#header_container {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100000;
+  font-size: 12px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #404040;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+  border-bottom: 1px solid #cccccc;
+  -webkit-box-shadow: 0 1px 3px 0 #444444;
+  -moz-box-shadow: 0 1px 3px 0 #444444;
+  box-shadow: 0 1px 3px 0 #444444;
+}
+
+#header_container h4 {
+  border: 0px;
+  float: left;
+  cursor: default;
+} 
+
+@media (max-width: 320px) {
+  #header_container h4 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 280px) {
+  #header_container img {
+    display: none;
+  }
+}
+
+
+/***** Social buttons *****/
+#share {
+  padding-left: 5px;
+  padding-top: 65px;
+}
+
+#share ul {
+  margin: 0px;
+}
+
+#share li {
+  list-style: none;
+}
+
+.float_left {
+  float: left;
+}
+
+#facebook-icon {
+  padding-right: 15px;
+}
