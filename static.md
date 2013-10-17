@@ -1,6 +1,6 @@
 #Make your page static
 
-- This converts takes your data from the Google spreadsheet makes JSON out of it.
+- This is an option if you want to store your data from your Google spreadsheet locally instead of fetching it from Google.
 
  1. Open up Firefox and inspect console with Firebug. Then run console.log(JSON.stringify(context))
  
