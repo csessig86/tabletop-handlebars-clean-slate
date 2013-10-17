@@ -49,7 +49,9 @@
   <!-- Templates -->
   <script id="sections-template" type="text/x-handlebars-template">
     {{#each body}}
-      <p>{{ race }}</p>
+      {{#each elements}}
+        <p>{{ race }}</p>
+      {{/each}}
     {{/each}}
   </script>
 
@@ -74,7 +76,7 @@
 
   <!-- Header -->
   <div id="header_container" class="header-footer">
-    <h4>Municipal elections in the Cedar Valley</h4>
+    <h4>Municipal elections: Cedar Valley</h4>
     <a href="http://wcfcourier.com/" target="_blank">
       <img src="images/WCFCourier_LOGO_BW_300px.png" style="height: 15px; float: right; padding-top: 5px;" />
     </a>
@@ -100,7 +102,11 @@
       </ul>
     </div>
 
-  <script type="text/javascript" src="js/loadpage.js"></script>
+  <script type="text/javascript" src="js/loadpagetabletop.js"></script>
+  <!-- <script type="text/javascript" src="js/notabletop.js"></script> -->
+  <!-- Use this if you're going static -->
+  <script type="text/javascript" src="js/notabletop.js"></script>
+  <script type="text/javascript" src="js/templates.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
   </div>
 </body>

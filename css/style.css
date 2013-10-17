@@ -19,7 +19,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 {
-	line-height: 30px;
+  line-height: 30px;
 }
 
 h4 {
@@ -34,7 +34,7 @@ a {
 }
 
 .btn {
-	-webkit-user-select: none;  /* Chrome all / Safari all */
+  -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;      /* IE 10+ */
     -o-user-select: none;
@@ -42,8 +42,8 @@ a {
 }
 
 hr {
-	margin-top: 0px;
-	margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 
@@ -72,18 +72,22 @@ hr {
   cursor: default;
 } 
 
-@media (max-width: 320px) {
-  #header_container h4 {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 280px) {
+@media (max-width: 380px) {
   #header_container img {
     display: none;
   }
 }
 
+@media (max-width: 320px) {
+  #header_container h4 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 280px) {
+  #header_container h4 {
+    font-size: 10px;
+  }
+}
 
 /***** Social buttons *****/
 #share {

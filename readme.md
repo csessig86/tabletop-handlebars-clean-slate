@@ -12,9 +12,11 @@ Uses:
 The Google spreadsheet used in this example is:
 [https://docs.google.com/spreadsheet/pub?key=0As3JvOeYDO50dHJITmhNWXRUc3FYMFI4emZhWTU0SlE&output=html](https://docs.google.com/spreadsheet/pub?key=0As3JvOeYDO50dHJITmhNWXRUc3FYMFI4emZhWTU0SlE&output=html)
 
-You'll want to make sure you hook up to your spreadsheet by changing line 19 in loadpage.js.
+You'll want to make sure you hook up to your in loadpagetabletop.js.
 
-Right now, all the data is pushed into the context variable. The template is currently pulling in just the values for the "race" column. The template starts on line 49 of index.html
+Right now, all the data is formatted as JSON and added to the context variable. The template is currently pulling in just the values for the "race" column.
 
-The script.js file is empty and eagerly awaiting some awesome JS code.
+If you want to go static, read static.md
+
+
 
