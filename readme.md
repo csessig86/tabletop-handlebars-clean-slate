@@ -1,3 +1,5 @@
+#Clean-slate
+
 This is my clean-slate setup for when I'm creating a project where the data will be stored in a Google spreadsheet, pulled in using Tabletop.js and templated using Handlebars.js. The project is styled using Bootstrap. It also has a header with the Courier logo and share buttons on the page. You'll want to edit/delete those, as well as make sure your metadata is accurate.
 
 Uses:
