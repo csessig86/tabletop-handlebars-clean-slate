@@ -15,6 +15,6 @@ function loadTemplates() {
   
     // Determine if we are rendering the template at the beginning
     // Or the end of the DIV
-    $(templates[num]["templatehtml"] + "").append(handlebarscompile(context_no_tabletop));
+    $(templates[num]["templatehtml"] + "").append(handlebarscompile(context));
   }
 };
