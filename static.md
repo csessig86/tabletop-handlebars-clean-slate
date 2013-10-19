@@ -6,12 +6,16 @@
  
  2. Copy all the code that is spit out
  
- 3. Create a new file in the js folder called notabletop.js, create a variable called context and paste in the JSON you showed on the console.
+ 3. Create a new file in the js folder called notabletop.js, create a variable called context and paste in the JSON you were shown on the console.
  
  4. Replace this (Line 103) in index.html:
+ ```html
  <script type="text/javascript" src="js/loadpagetabletop.js"></script>
+ ```
  With this:
+ ```html
  <script type="text/javascript" src="js/notabletop.js"></script>
+ ```
 
  5. Add:
 loadTemplates();
