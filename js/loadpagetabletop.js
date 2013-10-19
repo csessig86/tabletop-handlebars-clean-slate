@@ -31,7 +31,7 @@ function pullDataFromTabletop(tabletopData, tabletop) {
     context["body"].push(tabletopData[num]);
   }
   // If you want to see what context looks like:
-  console.log(context);
+  // console.log(context);
   
   // Load templates
   loadTemplates();
