@@ -3,6 +3,7 @@
 - This is an option if you want to store your data from your Google spreadsheet locally instead of fetching it from Google.
 
  1. Open up Firefox and inspect console with Firebug. Then run console.log(JSON.stringify(context))
+ Note: You can space out your JSON output by typing in console.log(JSON.stringify(context, null, 4))
  
  2. Copy all the code that is spit out
  
@@ -19,4 +20,4 @@
 
  5. Add:
 loadTemplates();
- To the bottom of your templates.js file
+ To the bottom of your index.html file
